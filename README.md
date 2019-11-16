@@ -14,15 +14,3 @@ The tasks decide when to give up control. Only one processor.
 
 The processes all run at the same time on different processors. Many processors.
 
-## Process Types
-
-### I/O-Bound Process
-
-Your program spends most of its time talking to a slow device, like a network connection, a hard drive, or a printer.
-Speeding it up involves overlapping the times spent waiting for these devices.
-
-### CPU-Bound Process
-
-You program spends most of its time doing CPU operations.
-Speeding it up involves finding ways to do more computations in the same amount of time.
-

@@ -56,3 +56,5 @@ if __name__ == "__main__":
     asyncio.run(main(number_of_producers, number_of_consumers))
     elapsed = time.perf_counter() - start
     print(f"Program completed in {elapsed:0.5f} seconds.")
+    loop = asyncio._get_running_loop()
+    loop.run_until_complete()
